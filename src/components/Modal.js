@@ -35,7 +35,8 @@ import {
             const { toggle, onSave } = this.props;
         
             return (
-             <Modal  isOpen={true} toggle={toggle}>
+             <Modal  isOpen={true} toggle={toggle}
+             >
              
                 <ModalHeader toggle={toggle}>Todo Item</ModalHeader>
                 <ModalBody>
